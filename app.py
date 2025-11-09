@@ -4,9 +4,9 @@ from PIL import Image
 import pandas as pd
 import os, io, zipfile
 
-st.set_page_config(page_title="QR Code Generator", page_icon="🔳", layout="centered")
+st.set_page_config(page_title="UR QR Generator", page_icon="🔳", layout="centered")
 
-st.title("🔳 QR Code Generator (Single & Bulk)")
+st.title("🔳 UR QR Generator (Single & Bulk)")
 st.markdown("Easily create QR codes for single links or entire Excel files with custom colors and logos!")
 
 # === Sidebar settings ===
